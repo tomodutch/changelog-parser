@@ -1,6 +1,6 @@
 {
-  "name": "tfarla/composer-template",
-  "description": "A template for creating composer libraries",
+  "name": "tfarla/changelog-parser",
+  "description": "Extract release information from the changelog",
   "type": "library",
   "license": "MIT",
   "authors": [

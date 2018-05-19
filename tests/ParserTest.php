@@ -33,15 +33,18 @@ class ParserTest extends TestCase
         $expected = unserialize(file_get_contents($goldenFile));
 
         $this->assertEquals($expected, $actual);
+
+
     }
 
     function fileProvider()
     {
         return [
-            ['empty-file.md'],
-            ['single-release.md'],
-            ['multiple-releases.md'],
-            ['keepachangelog.md']
+//            ['empty-file.md'],
+//            ['single-release.md'],
+//            ['multiple-releases.md'],
+            ['multiple-changes.md'],
+//            ['keepachangelog.md']
         ];
     }
 

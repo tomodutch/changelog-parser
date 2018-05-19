@@ -18,7 +18,7 @@ class ParseResult
     }
 
     /**
-     * @return array
+     * @return Release[]
      */
     public function getReleases(): array
     {

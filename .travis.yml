@@ -10,7 +10,6 @@ script:
   - composer run code-sniffer
   - composer run test
   - composer run static-analysis
-  - composer run mess-detector
 
 after_success:
   - travis_retry php vendor/bin/php-coveralls -v
